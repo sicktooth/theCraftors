@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome | The Craftors</title>
+        <link rel="stylesheet" href="./css/output.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        
+
+        <aside class="bg-[#111a1f] text-white md:text-2xl text-[19px] h-full w-4/5 fixed z-[999] hidden" id="mobileNavPage">
+            <div class="flex flex-col px-8 gap-2.5 py-8 h-full">
+                <header class="flex justify-between">
+                    <h1 class="text-2xl mb-3.5">The Craftors</h1>
+                    <div>
+                        <button type="button" onclick="RmMobileNav()" class="cursor-pointer"><ion-icon class="text-3xl" name="close-circle-outline"></ion-icon></button>
+                    </div>
+                </header>
+                <div class="">
+                    <ul class="flex flex-col gap-5">
+                        <li class="cursor-pointer">Home</li>
+                        <li class="cursor-pointer">About</li>
+                        <li class="cursor-pointer">Contact</li>
+                        <li class="cursor-pointer">Services</li>
+                    </ul>
+                </div>
+                
+                <footer class="flex flex-col mt-auto pb-2.5 text-[1rem]">
+                    <div class="">
+                        <a href="mailto:sammy_o_osaro@outlook.com">sammy_o_osaro@outlook.com</a>
+                    </div>
+                </footer>
+            </div>
+        </aside>
+    
+        
+        
+        <!-- for the bg img -->
+        
+        <main id="main-page">
+            <!-- desktop nav -->
+            <!-- for bg img -->
+            <nav id="full-nav" class="bg-[#111A1F] text-white md:text-2xl text-[19px]">
+                <!-- for width -->
+                <div class="max-md:py-1 max-md:px-5 py-3.5 px-10 w-auto">
+                    <!-- for the width responsivesly and positioning -->
+                    <div class="sticky">
+                        <nav class="max-md:hidden ">
+                            <ul class="flex gap-20 items-center justify-center max-md:hidden">
+                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Home</li>
+                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">About</li>
+                                <li class="cursor-pointer">
+                                    <a href="/"><img width="100%" class="h-[70px]" src="./img/logo.png" alt=""></a>
+                                </li>
+                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Contact</li>
+                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Services</li>
+                            </ul>
+                        
+                        </nav>
+                        
+                        <!-- mobile nav -->
+                        <nav class="max-md:flex hidden justify-between">
+                            <a href="/"><img width="100%" class="h-[60px]" src="./img/logo.png" alt=""></a>
+                            <button id="mobileNavBtn" type="button" onclick="showMobileNav()" class="cursor-pointer"><ion-icon name="menu"></ion-icon></button>
+                        </nav>
+                    </div >
+
+                </div>
+                
+            </nav>
+            <section class="bg-craftors-light" onclick="RmMobileNav()">
+
+                <header class="relative min-md:h-[70vh] min-lg:h-[85vh] min-xl:h-[90vh] h-[95vh] min-md:px-20 px-7 bg-craftors-hero bg-no-repeat bg-center bg-cover bg-fixed">
+                      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+                     <!-- for the responsiveness width -->
+                    <div class="relative flex flex-col h-[100%]">
+                        <!-- for the positioning -->
+                        <div class="my-auto flex flex-col min-lg:gap-10 min-md:gap-7 gap-5">
+                            <div class="text-craftors-light">
+                                <h1 class="min-md:text-4xl text-3xl mb-5">We Build Websites That Work <span class="text-craftors-accent">—</span> Beautifully.</h1>
+                                <p>Everything your online presence needs in one place.</p>
+                            </div>
+                            <div class="flex gap-5">
+                                <button class="bg-craftors-accent hover:bg-craftors-deep hover:p-4 hover:rounded-[17px] transition-all p-4 text-white rounded-xl cursor-pointer text-[1.2rem]" type="button">Work with us</button>
+                                <!-- <button type="button">Our Services</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                    <!-- ABOUT US -->
+                <section class="min-md:px-20 px-7 py-10">
+                    <div>
+                        <div>
+                            <!-- header -->
+                            <div class="text-center max-md:pb-3 min-md:pb-7">
+                                <h2 class="min-md:text-3xl text-2xl font-bold">About us</h2>
+                            </div>
+                            <!-- body -->
+                            <div class="flex flex-col gap-5 md:text-center">
+                                <p>The Craftors is a collective driven by the craft of building digital solutions that work, scale, and stand the test of time.</p>
+
+                                <p>Our work begins with web development—turning ideas into clean, responsive, and intuitive interfaces. We place strong emphasis on structure, spacing, performance, and real user experience, ensuring every product is as functional as it is visually refined.
+                                Beyond the surface, we are deeply invested in programming fundamentals and system thinking. We focus on understanding the why behind the code, writing logic that is clear, maintainable, and built for long-term growth using modern JavaScript and development tools.</p>
+
+                                <p>The Craftors is not about shortcuts or fleeting trends. It’s about mastery, continuous improvement, and intentional building. Every project is an opportunity to refine the craft and deliver quality that speaks for itself.</p>
+                            </div>
+                            <!-- footer -->
+                            <div class="flex flex-col gap-10 min-md:gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-14">
+                                <div class="flex flex-col gap-2.5 min-md:border-x-craftors-accent min-md:border-x-2 lg:border-l-0 min-lg:border-r-2 border-b-craftors-accent max-md:border-b-1 min-lg:pr-5 min-md:px-3 max-md:pb-2.5">
+                                    <div class="flex md:mx-auto flex-row items-center gap-2.5 ">
+                                        <h4 class="font-bold text-[17px]">Fast delivery</h4>
+                                        <ion-icon name="flash" class="text-craftors-deep"></ion-icon>
+                                    </div>
+                                    <p>We work with clear timelines and efficient workflows to deliver high-quality results without unnecessary delays.</p>
+                                </div>
+
+                                <div class="flex flex-col gap-2.5 min-md:border-r-craftors-accent min-md:border-r-2 border-b-craftors-accent max-md:border-b-1 min-md:pr-5 max-md:pb-2.5">
+                                    <div class="flex md:mx-auto flex-row items-center gap-2.5">
+                                        <h4 class="font-bold text-[17px]">Transparent Budget</h4>
+                                        <ion-icon name="wallet" class="text-craftors-deep"></ion-icon>
+                                    </div>
+                                    <p>No hidden costs or surprises. We provide clear pricing and honest estimates from start to finish.</p>
+                                </div>
+
+                                <div class="flex flex-col gap-2.5 min-md:border-r-craftors-accent min-md:border-r-2 border-b-craftors-accent max-md:border-b-1 min-md:pr-5 max-md:pb-2.5">
+                                    <div class="flex md:mx-auto flex-row items-center gap-2.5">
+                                        <h4 class="font-bold text-[17px]">Good Communication</h4>
+                                        <ion-icon name="chatbubbles" class="text-craftors-deep"></ion-icon>
+                                    </div>
+                                    <p>We keep communication open and consistent, ensuring clarity, updates, and alignment throughout the project.</p>
+                                </div>
+
+                                <div class="flex flex-col gap-2.5 min-md:border-r-craftors-accent min-md:border-r-2 border-b-craftors-accent max-md:border-b-1 min-md:pr-5 max-md:pb-2.5">
+                                    <div class="flex md:mx-auto flex-row items-center gap-2.5">
+                                        <h4 class="font-bold text-[17px]">Compelling Designs</h4>
+                                        <ion-icon name="brush" class="text-craftors-deep"></ion-icon>
+                                    </div>
+                                    <p>We design with clarity and purpose—clean layouts that enhance usability without unnecessary complexity.</p>
+                                </div>
+
+                                <div class="flex flex-col gap-2.5">
+                                    <div class="flex md:mx-auto flex-row items-center gap-2.5">
+                                        <h4 class="font-bold text-[17px]">SEO Ambassador</h4>
+                                        <ion-icon name="trending-up" class="text-craftors-deep"></ion-icon>
+                                    </div>
+                                    <p>Our builds follow SEO-friendly practices, helping your product gain visibility and perform better in search.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="min-md:px-20 px-7 bg-craftors-dark text-craftors-light py-10">
+                    <!-- GIF as background for this section.. like code falling -->
+                    <div>
+                        <div class="text-center max-md:pb-3 min-md:pb-7">
+                            <h2 class="min-md:text-3xl text-2xl font-bold">Our Creations</h2>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div class="flex flex-col gap-10 min-md:gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                            <div>
+                                <div class="flex flex-col">
+                                    <div><img class="w-full" src="" alt="the law"></div>
+                                    <div class="flex flex-col py-2.5 px-1.5">
+                                        <div class="flex gap-1.5 items-center">
+                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
+                                            <h5>Cl name</h5>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex flex-col">
+                                    <div><img class="w-full" src="" alt="Creations"></div>
+                                    <div class="flex flex-col py-2.5 px-1.5">
+                                        <div class="flex gap-1.5 items-center">
+                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
+                                            <h5>Cl name</h5>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex flex-col">
+                                    <div><img class="w-full" src="" alt="Hisa"></div>
+                                    <div class="flex flex-col py-2.5 px-1.5">
+                                        <div class="flex gap-1.5 items-center">
+                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
+                                            <h5>Cl name</h5>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <section class="min-md:px-20 px-7 py-10">
+                    <div>
+                        <div class="text-center max-md:pb-3 min-md:pb-7">
+                            <div>
+                                <h2 class="min-md:text-3xl text-2xl font-bold">Get In Touch</h2>
+                            </div>
+                            <p class="mt-5">We're all ears</p>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div>
+                            <form action="" class="flex flex-col gap-5 max-w-2xl mx-auto">
+                                <input class="p-3.5 rounded-lg border-[1px] border-craftors-dark focus:outline-craftors-accent" type="text" placeholder="Your Name" required>
+                                <input class="p-3.5 rounded-lg border-[1px] border-craftors-dark focus:outline-craftors-accent" type="email" placeholder="Your Email" required>
+                                <textarea class="p-3.5 rounded-lg border-[1px] border-craftors-dark focus:outline-craftors-accent" name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                                <button class="bg-craftors-accent hover:bg-craftors-deep hover:p-4 hover:rounded-[15px] transition-all p-3 text-white rounded-xl cursor-pointer w-max" type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            
+            </section>
+
+            <footer class="bg-craftors-dark"></footer>
+           
+        </main>
+
+        <script src="./js/app.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    
+
+</html>
