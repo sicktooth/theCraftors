@@ -25,17 +25,23 @@
                 </header>
                 <div class="">
                     <ul class="flex flex-col gap-5">
-                        <li class="cursor-pointer">Home</li>
-                        <li class="cursor-pointer">About</li>
-                        <li class="cursor-pointer">Contact</li>
-                        <li class="cursor-pointer">Services</li>
+                        <!-- <li class="cursor-pointer">Home</li> -->
+                        <!-- <li class="cursor-pointer">About</li> -->
+                        <li class="cursor-pointer"><a href="https://wa.me/message/BA5RD2ZLGZ7TH1" target="_blank" rel="noopener noreferrer">Contact via Whatsapp</a></li>
+                        <!-- <li class="cursor-pointer">Services</li> -->
                     </ul>
+                </div>
+
+                <div class="mt-auto">
+                    <p>Or send us a mail below</p>
                 </div>
                 
                 <footer class="flex flex-col mt-auto pb-2.5 text-[1rem]">
-                    <div class="">
+                    
+                    <div class="pb-3">
                         <a href="mailto:sammy_o_osaro@outlook.com">sammy_o_osaro@outlook.com</a>
                     </div>
+                    <p class="text-[0.89rem] mt-5">&copy; 2026 The Craftors. All rights reserved.</p>
                 </footer>
             </div>
         </aside>
@@ -50,23 +56,23 @@
             <nav id="full-nav" class="bg-[#111A1F] text-white md:text-2xl text-[19px]">
                 <!-- for width -->
                 <div class="max-md:py-1 max-md:px-5 py-3.5 px-10 w-auto">
-                    <!-- for the width responsivesly and positioning -->
+                    <!-- for the width responsively and positioning -->
                     <div class="sticky">
                         <nav class="max-md:hidden ">
                             <ul class="flex gap-20 items-center justify-center max-md:hidden">
-                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Home</li>
-                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">About</li>
+                                <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Home</li> -->
+                                <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">About</li> -->
                                 <li class="cursor-pointer">
                                     <a href="/"><img width="100%" class="h-[70px]" src="./img/logo.png" alt=""></a>
                                 </li>
-                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Contact</li>
-                                <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Services</li>
+                                <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Contact</li> -->
+                                <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Services</li> -->
                             </ul>
                         
                         </nav>
                         
                         <!-- mobile nav -->
-                        <nav class="max-md:flex hidden justify-between">
+                        <nav class="max-md:flex max-md:pr-4 hidden justify-between">
                             <a href="/"><img width="100%" class="h-[60px]" src="./img/logo.png" alt=""></a>
                             <button id="mobileNavBtn" type="button" onclick="showMobileNav()" class="cursor-pointer"><ion-icon name="menu"></ion-icon></button>
                         </nav>
@@ -88,7 +94,7 @@
                                 <p>Everything your online presence needs in one place.</p>
                             </div>
                             <div class="flex gap-5">
-                                <button class="bg-craftors-accent hover:bg-craftors-deep hover:p-4 hover:rounded-[17px] transition-all p-4 text-white rounded-xl cursor-pointer text-[1.2rem]" type="button">Work with us</button>
+                                <button onclick="window.open('https://wa.me/message/BA5RD2ZLGZ7TH1', '_blank')"class="bg-craftors-accent hover:bg-craftors-deep hover:p-4 hover:rounded-[17px] transition-all p-4 text-white rounded-xl cursor-pointer text-[1.2rem]" type="button">Work with us</button>
                                 <!-- <button type="button">Our Services</button> -->
                             </div>
                         </div>
@@ -103,14 +109,14 @@
                                 <h2 class="min-md:text-3xl text-2xl font-bold">About us</h2>
                             </div>
                             <!-- body -->
-                            <div class="flex flex-col gap-5 md:text-center">
+                            <!-- <div class="flex flex-col gap-5 md:text-center">
                                 <p>The Craftors is a collective driven by the craft of building digital solutions that work, scale, and stand the test of time.</p>
 
                                 <p>Our work begins with web development—turning ideas into clean, responsive, and intuitive interfaces. We place strong emphasis on structure, spacing, performance, and real user experience, ensuring every product is as functional as it is visually refined.
                                 Beyond the surface, we are deeply invested in programming fundamentals and system thinking. We focus on understanding the why behind the code, writing logic that is clear, maintainable, and built for long-term growth using modern JavaScript and development tools.</p>
 
                                 <p>The Craftors is not about shortcuts or fleeting trends. It’s about mastery, continuous improvement, and intentional building. Every project is an opportunity to refine the craft and deliver quality that speaks for itself.</p>
-                            </div>
+                            </div> -->
                             <!-- footer -->
                             <div class="flex flex-col gap-10 min-md:gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-14">
                                 <div class="flex flex-col gap-2.5 min-md:border-x-craftors-accent min-md:border-x-2 lg:border-l-0 min-lg:border-r-2 border-b-craftors-accent max-md:border-b-1 min-lg:pr-5 min-md:px-3 max-md:pb-2.5">
@@ -169,29 +175,29 @@
                         <div class="flex flex-col gap-10 min-md:gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                             <div>
                                 <div class="flex flex-col">
-                                    <div><img class="w-full" src="" alt="the law"></div>
+                                    <div><a href="https://eldekintsglobals-git-side-sicktooths-projects.vercel.app/" target="_blank" rel="noopener noreferrer"><img class="w-full" src="./img/project2.png" alt="the law"></a></div>
                                     <div class="flex flex-col py-2.5 px-1.5">
                                         <div class="flex gap-1.5 items-center">
-                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
-                                            <h5>Cl name</h5>
+                                            <img src="./img/ed_logo.webp" class="h-5 w-5 rounded-b-full" alt="cl-logo">
+                                            <h5>Eldekints Globals</h5>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
+                                        <p>Modern, responsive, official website for an Oil and Gas company.</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div class="flex flex-col">
-                                    <div><img class="w-full" src="" alt="Creations"></div>
+                                    <div><a href="https://sicktooth.github.io/Rou_portfolio/" target="_blank" rel="noopener noreferrer"><img class="w-full" src="./img/project1.png" alt="Creations"></a></div>
                                     <div class="flex flex-col py-2.5 px-1.5">
                                         <div class="flex gap-1.5 items-center">
-                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
-                                            <h5>Cl name</h5>
+                                            <!-- <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo"> -->
+                                            <h5>Rou Madi</h5>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
+                                        <p>Simple portfolio website for a creative consultant.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <!-- <div>
                                 <div class="flex flex-col">
                                     <div><img class="w-full" src="" alt="Hisa"></div>
                                     <div class="flex flex-col py-2.5 px-1.5">
@@ -202,14 +208,14 @@
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             
                         </div>
                     </div>
                     
                 </section>
 
-                <section class="min-md:px-20 px-7 py-10">
+                <!-- <section class="min-md:px-20 px-7 py-10">
                     <div>
                         <div class="text-center max-md:pb-3 min-md:pb-7">
                             <div>
@@ -243,7 +249,7 @@
                             </form>
                         </div>
                     </div>
-                </section>
+                </section> -->
             
             </section>
 
