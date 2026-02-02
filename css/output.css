@@ -206,6 +206,9 @@
   .my-auto {
     margin-block: auto;
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -416,6 +419,9 @@
   .py-3\.5 {
     padding-block: calc(var(--spacing) * 3.5);
   }
+  .py-7 {
+    padding-block: calc(var(--spacing) * 7);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
@@ -445,17 +451,14 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
-  .text-\[0\.5rem\] {
-    font-size: 0.5rem;
+  .text-\[0\.9rem\] {
+    font-size: 0.9rem;
   }
-  .text-\[0\.89rem\] {
-    font-size: 0.89rem;
+  .text-\[0\.75rem\] {
+    font-size: 0.75rem;
   }
   .text-\[1\.2rem\] {
     font-size: 1.2rem;
-  }
-  .text-\[1rem\] {
-    font-size: 1rem;
   }
   .text-\[17px\] {
     font-size: 17px;
@@ -572,11 +575,6 @@
       border-bottom-width: 1px;
     }
   }
-  .max-md\:px-2 {
-    @media (width < 48rem) {
-      padding-inline: calc(var(--spacing) * 2);
-    }
-  }
   .max-md\:px-5 {
     @media (width < 48rem) {
       padding-inline: calc(var(--spacing) * 5);
@@ -607,6 +605,11 @@
       margin-inline: auto;
     }
   }
+  .md\:mt-0 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
   .md\:grid {
     @media (width >= 48rem) {
       display: grid;
@@ -620,6 +623,11 @@
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
+      flex-direction: row;
     }
   }
   .min-md\:gap-5 {
