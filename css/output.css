@@ -224,6 +224,9 @@
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
+  }
   .flex {
     display: flex;
   }
@@ -235,6 +238,15 @@
   }
   .h-5 {
     height: calc(var(--spacing) * 5);
+  }
+  .h-48 {
+    height: calc(var(--spacing) * 48);
+  }
+  .h-56 {
+    height: calc(var(--spacing) * 56);
+  }
+  .h-80 {
+    height: calc(var(--spacing) * 80);
   }
   .h-\[60px\] {
     height: 60px;
@@ -259,6 +271,15 @@
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
+  }
+  .w-48 {
+    width: calc(var(--spacing) * 48);
+  }
+  .w-56 {
+    width: calc(var(--spacing) * 56);
+  }
+  .w-80 {
+    width: calc(var(--spacing) * 80);
   }
   .w-auto {
     width: auto;
@@ -320,6 +341,9 @@
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -340,6 +364,15 @@
   }
   .border-craftors-dark {
     border-color: var(--color-craftors-dark);
+  }
+  .border-craftors-light {
+    border-color: var(--color-craftors-light);
+  }
+  .border-craftors-light\/20 {
+    border-color: color-mix(in srgb, #F5F7F8 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-craftors-light) 20%, transparent);
+    }
   }
   .border-b-craftors-accent {
     border-bottom-color: var(--color-craftors-accent);
@@ -382,6 +415,9 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -451,6 +487,9 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-\[0\.7rem\] {
+    font-size: 0.7rem;
+  }
   .text-\[0\.9rem\] {
     font-size: 0.9rem;
   }
@@ -484,6 +523,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .caret-craftors-accent {
+    caret-color: var(--color-craftors-accent);
   }
   .outline {
     outline-style: var(--tw-outline-style);
@@ -623,11 +665,6 @@
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  .md\:flex-row {
-    @media (width >= 48rem) {
-      flex-direction: row;
     }
   }
   .min-md\:gap-5 {
