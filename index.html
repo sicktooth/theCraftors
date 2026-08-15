@@ -4,11 +4,10 @@
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG7BNN6H59"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-RG7BNN6H59');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RG7BNN6H59');
         </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +19,10 @@
         <meta name="robots" content="index, follow">
         <!-- Replace the canonical href with your live site URL (absolute) -->
         <link rel="canonical" href="https://the-craftors.vercel.app/">
-
         <!--TAILWINDCSS-->
-
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <style type="text/tailwindcss">
             @theme {
-                
             --color-craftors-deep: #0C5738;    /* primary deep green */
             --color-craftors-accent: #059553;  /* bright accent green */
             --color-craftors-dark: #111A1F;    /* charcoal / background */
@@ -35,7 +31,6 @@
             --background-image-craftors-hero: url('../img/hero.webp');
             }
         </style>
-
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="Welcome | The Craftors">
@@ -43,16 +38,13 @@
         <meta property="og:image" content="/img/logo.webp">
         <meta property="og:url" content="https://the-craftors.vercel.app/">
         <meta property="og:site_name" content="The Craftors">
-
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Welcome | The Craftors">
         <meta name="twitter:description" content="Freelance web developer building fast, responsive, SEO-friendly websites.">
         <meta name="twitter:image" content="/img/logo.webp">
-
         <!-- Theme color for supported browsers -->
         <meta name="theme-color" content="#111a1f">
-
         <!-- Structured data (JSON-LD) -->
         <script type="application/ld+json">
         {
@@ -69,7 +61,6 @@
             ]
         }
         </script>
-
         <!-- (Optional) Add or generate a sitemap.xml and robots.txt at your site root -->
         <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -79,43 +70,7 @@
         <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
-        
-
-        <aside class="bg-craftors-dark text-white md:text-2xl text-[19px] h-full w-4/5 fixed z-999 hidden" id="mobileNavPage">
-            <div class="flex flex-col px-8 gap-2.5 py-8 h-full text-[0.9rem]">
-                <header class="flex justify-between">
-                    <h1 class="text-2xl mb-3.5">The Craftors</h1>
-                    <div>
-                        <button type="button" onclick="RmMobileNav()" class="cursor-pointer"><ion-icon class="text-3xl" name="close-circle-outline"></ion-icon></button>
-                    </div>
-                </header>
-                <div class="">
-                    <ul class="flex flex-col gap-5">
-                        <!-- <li class="cursor-pointer">Home</li> -->
-                        <!-- <li class="cursor-pointer">About</li> -->
-                        <li class="cursor-pointer"><a href="https://wa.me/message/BA5RD2ZLGZ7TH1" class="flex items-center gap-2" target="_blank" rel="noopener noreferrer">Contact via Whatsapp <ion-icon class="text-craftors-accent" name="logo-whatsapp"></ion-icon></a></li>
-                        <!-- <li class="cursor-pointer">Services</li> -->
-                    </ul>
-                </div>
-
-                <div class="mt-auto">
-                    <p>Or send me a mail below</p>
-                </div>
-                
-                <footer class="flex flex-col mt-auto pb-2.5">
-                    
-                    <div class="pb-3">
-                        <a class="flex items-center gap-2 hover:text-craftors-accent transition-all" href="mailto:thecraftorsng@gmail.com">thecraftorsng@gmail.com <ion-icon class="text-craftors-accent" name="mail-unread"></ion-icon></a>
-                    </div>
-                    <p class="text-[0.75rem] mt-5">&copy; 2026 The Craftors. All rights reserved.</p>
-                </footer>
-            </div>
-        </aside>
-    
-        
-        
         <!-- for the bg img -->
-        
         <main id="main-page">
             <!-- desktop nav -->
             <!-- for bg img -->
@@ -134,21 +89,15 @@
                                 <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Contact</li> -->
                                 <!-- <li class="cursor-pointer hover:transition-all hover:text-craftors-accent">Services</li> -->
                             </ul>
-                        
                         </nav>
-                        
                         <!-- mobile nav -->
-                        <nav class="max-md:flex max-md:pr-4 hidden justify-between">
+                        <nav class="max-md:flex max-md:pr-4 hidden justify-center">
                             <a href="/"><img width="100%" class="h-15" src="./img/logo.webp" alt=""></a>
-                            <button id="mobileNavBtn" type="button" onclick="showMobileNav()" class="cursor-pointer"><ion-icon name="menu"></ion-icon></button>
                         </nav>
                     </div >
-
                 </div>
-                
             </nav>
-            <section class="bg-craftors-light" onclick="RmMobileNav()">
-
+            <section class="bg-craftors-light">
                 <header class="relative md:h-[70vh] lg:h-[85vh] xl:h-[90vh] h-[95vh] md:px-20 px-7 bg-craftors-hero bg-no-repeat bg-center bg-cover bg-fixed">
                       <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
                      <!-- for the responsiveness width -->
@@ -175,16 +124,6 @@
                                 <h2 class="md:text-3xl text-2xl font-bold mb-7">About me</h2>
                             </div>
                             <img src="img/profile.webp" alt="a picture of me" class="mx-auto rounded-full w-80 object-cover mb-7">
-                            <!-- body -->
-                            <!-- <div class="flex flex-col gap-5 md:text-center">
-                                <p>The Craftors is a collective driven by the craft of building digital solutions that work, scale, and stand the test of time.</p>
-
-                                <p>Our work begins with web development—turning ideas into clean, responsive, and intuitive interfaces. We place strong emphasis on structure, spacing, performance, and real user experience, ensuring every product is as functional as it is visually refined.
-                                Beyond the surface, we are deeply invested in programming fundamentals and system thinking. We focus on understanding the why behind the code, writing logic that is clear, maintainable, and built for long-term growth using modern JavaScript and development tools.</p>
-
-                                <p>The Craftors is not about shortcuts or fleeting trends. It’s about mastery, continuous improvement, and intentional building. Every project is an opportunity to refine the craft and deliver quality that speaks for itself.</p>
-                            </div> -->
-                            <!-- footer -->
                             <div class="flex flex-col gap-10 md:gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-14">
                                 <div class="flex flex-col gap-2.5 md:border-x-craftors-accent md:border-x-2 lg:border-l-0 lg:border-r-2 border-b-craftors-accent max-md:border-b lg:pr-5 md:px-3 max-md:pb-2.5">
                                     <div class="flex md:mx-auto flex-row items-center gap-2.5 ">
@@ -201,7 +140,6 @@
                                     </div>
                                     <p>No hidden costs or surprises. I provide clear pricing and honest estimates from start to finish.</p>
                                 </div>
-
                                 <div class="flex flex-col gap-2.5 md:border-r-craftors-accent md:border-r-2 border-b-craftors-accent max-md:border-b md:pr-5 max-md:pb-2.5">
                                     <div class="flex md:mx-auto flex-row items-center gap-2.5">
                                         <h4 class="font-bold text-[17px]">Good Communication</h4>
@@ -209,7 +147,6 @@
                                     </div>
                                     <p>I keep communication open and consistent, ensuring clarity, updates, and alignment throughout the project.</p>
                                 </div>
-
                                 <div class="flex flex-col gap-2.5 md:border-r-craftors-accent md:border-r-2 border-b-craftors-accent max-md:border-b md:pr-5 max-md:pb-2.5">
                                     <div class="flex md:mx-auto flex-row items-center gap-2.5">
                                         <h4 class="font-bold text-[17px]">Compelling Designs</h4>
@@ -217,7 +154,6 @@
                                     </div>
                                     <p>I design with clarity and purpose—clean layouts that enhance usability without unnecessary complexity.</p>
                                 </div>
-
                                 <div class="flex flex-col gap-2.5">
                                     <div class="flex md:mx-auto flex-row items-center gap-2.5">
                                         <h4 class="font-bold text-[17px]">SEO Ambassador</h4>
@@ -226,11 +162,9 @@
                                     <p>My builds follow SEO-friendly practices, helping your product gain visibility and perform better in search.</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
-                
                 <section class="md:px-20 px-7 bg-craftors-dark text-craftors-light py-10">
                     <!-- GIF as background for this section.. like code falling -->
                     <div>
@@ -263,25 +197,10 @@
                                         <p>Simple portfolio website for a creative consultant.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- <div>
-                                <div class="flex flex-col">
-                                    <div><img class="w-full" src="" alt="Hisa"></div>
-                                    <div class="flex flex-col py-2.5 px-1.5">
-                                        <div class="flex gap-1.5 items-center">
-                                            <img src="" class="h-5 w-5 rounded-b-full" alt="cl-logo">
-                                            <h5>Cl name</h5>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ab!</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            
+                            </div>  
                         </div>
                     </div>
-                    
                 </section>
-
                 <!-- <section class="min-md:px-20 px-7 py-10">
                     <div>
                         <div class="text-center max-md:pb-3 min-md:pb-7">
@@ -317,9 +236,7 @@
                         </div>
                     </div>
                 </section> -->
-            
             </section>
-
             <footer class="bg-craftors-dark">
                 <div class="max-md:px-5 px-10 py-7 text-craftors-light flex flex-col justify-between items-center">
                     <hr class="w-full mb-5 border-craftors-light/20">
@@ -327,18 +244,13 @@
                         <a href="https://wa.me/message/BA5RD2ZLGZ7TH1" target="_blank" rel="noopener noreferrer" class="hover:text-craftors-accent transition-all flex items-center gap-2">Contact via Whatsapp <ion-icon class="text-craftors-accent" name="logo-whatsapp"></ion-icon></a>
                         <p>Or via Email below</p>
                         <a class="hover:text-craftors-accent transition-all flex items-center gap-2" href="mailto:thecraftorsng@gmail.com">thecraftorsng@gmail.com <ion-icon class="text-craftors-accent" name="mail-unread"></ion-icon></a>
-                        <p class="text-[0.7rem]">&copy; 2026 The Craftors. All rights reserved.</p>
+                        <p class="text-[0.7rem] mt-[1rem]">&copy; 2026 The Craftors. All rights reserved.</p>
                         <!-- <a href="#" class="hover:text-craftors-accent transition-all">Privacy Policy</a> -->
                     </div>
                 </div>
             </footer>
-           
         </main>
-
-        <script src="./js/app.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
-    
-
 </html>
