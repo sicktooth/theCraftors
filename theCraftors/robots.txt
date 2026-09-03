@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /img/
+Disallow: /favicon/
+Disallow: /sitemap.xml
+
+Allow: /
