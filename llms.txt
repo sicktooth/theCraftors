@@ -1,0 +1,43 @@
+# The Craftors
+
+Website: https://the-craftors.vercel.app/
+
+The Craftors is a web development and SEO service based in Port Harcourt, Rivers State, Nigeria. It helps businesses, professionals, creatives, and students build fast, accessible, search-friendly digital experiences.
+
+## Services
+
+- Business Website Development — Professional websites for businesses and service providers.
+- Portfolio Website Development — Personal portfolio websites for professionals, creatives, developers, and students.
+- Progressive Web Apps — Fast, installable web applications with app-like experiences.
+- Web Application Development — Custom web software for business workflows and online services.
+- SEO Optimization — SEO-friendly technical and content improvements for better search visibility and performance.
+
+## Expertise
+
+- Responsive website development
+- Website performance
+- Search engine optimization
+- Accessible user interfaces
+- Web applications
+- Progressive Web Apps
+- Transparent project pricing
+- Remote project collaboration
+
+## Location
+
+Port Harcourt, Rivers State, Nigeria.
+
+Remote clients outside Nigeria are welcome.
+
+## Contact
+
+Email: thecraftorsng@gmail.com
+WhatsApp: https://wa.me/message/BA5RD2ZLGZ7TH1
+
+## Portfolio
+
+- Eldekints Globals: https://eldekintsglobals.com.ng/
+  Business website for a professional company, designed to strengthen credibility, showcase services, and improve client contact.
+
+- Rou Madi Portfolio: https://sicktooth.github.io/Rou_portfolio/
+  Personal portfolio website designed to highlight expertise, showcase work, and attract new opportunities.
