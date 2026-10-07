@@ -1,6 +1,6 @@
 # The Craftors
 
-Website: https://the-craftors.vercel.app/
+Website: https://thecraftor.com/
 
 The Craftors is a web development and SEO service based in Port Harcourt, Rivers State, Nigeria. It helps businesses, professionals, creatives, and students build fast, accessible, search-friendly digital experiences.
 
